@@ -1,0 +1,7 @@
+# Embase Search Strategy
+# Tanggal eksekusi: [YYYY-MM-DD]
+# Hasil: [N record]
+
+('regulatory T cell'/exp OR 'treg':ti,ab OR 'foxp3':ti,ab)
+AND ('autoimmune disease'/exp OR 'autoimmun*':ti,ab)
+AND ('cd8':ti,ab OR 'th1':ti,ab OR 'effector t':ti,ab)

@@ -1,0 +1,10 @@
+# Scopus Search Strategy
+# Tanggal eksekusi: [YYYY-MM-DD]
+# Hasil: [N record]
+
+TITLE-ABS-KEY(
+  ("regulatory T cell*" OR "Treg" OR "Foxp3")
+  AND ("autoimmun*" OR "lupus" OR "rheumatoid arthritis"
+       OR "multiple sclerosis" OR "type 1 diabetes")
+  AND ("CD8" OR "Th1" OR "effector T")
+)

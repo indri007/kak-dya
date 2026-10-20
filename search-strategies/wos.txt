@@ -1,0 +1,7 @@
+# Web of Science Core Collection Search Strategy
+# Tanggal eksekusi: [YYYY-MM-DD]
+# Hasil: [N record]
+
+TS=(("regulatory T cell*" OR "Treg" OR "Foxp3")
+    AND ("autoimmun*" OR "lupus" OR "rheumatoid arthritis")
+    AND ("CD8" OR "Th1" OR "effector T"))

@@ -1,0 +1,12 @@
+# PubMed/MEDLINE Search Strategy
+# Tanggal eksekusi: [YYYY-MM-DD]
+# Hasil: [N record]
+
+("T-Lymphocytes, Regulatory"[Mesh] OR "Treg"[tiab] OR "regulatory T cell*"[tiab]
+ OR "Foxp3"[tiab])
+AND
+("Autoimmune Diseases"[Mesh] OR "autoimmun*"[tiab] OR "lupus"[tiab]
+ OR "rheumatoid arthritis"[tiab] OR "multiple sclerosis"[tiab]
+ OR "type 1 diabetes"[tiab] OR "inflammatory bowel"[tiab])
+AND
+("CD8"[tiab] OR "Th1"[tiab] OR "effector T"[tiab] OR "Teff"[tiab])

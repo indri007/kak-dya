@@ -1,0 +1,12 @@
+# Cochrane CENTRAL Search Strategy
+# Tanggal eksekusi: [YYYY-MM-DD]
+# Hasil: [N record]
+
+#1 MeSH descriptor: [T-Lymphocytes, Regulatory] explode all trees
+#2 (regulatory T cell* OR Treg OR Foxp3):ti,ab,kw
+#3 MeSH descriptor: [Autoimmune Diseases] explode all trees
+#4 (autoimmun* OR lupus OR rheumatoid arthritis):ti,ab,kw
+#5 (CD8 OR Th1 OR effector T):ti,ab,kw
+#6 #1 OR #2
+#7 #3 OR #4
+#8 #6 AND #7 AND #5
