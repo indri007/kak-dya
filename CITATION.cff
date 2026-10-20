@@ -19,3 +19,8 @@ keywords:
   - autoimmune
   - regulatory T cells
   - effector T cells
+
+identifiers:
+  - type: other
+    value: "PROSPERO: CRD42026XXXXXX"
+    description: "PROSPERO registration number"
