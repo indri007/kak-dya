@@ -14,8 +14,8 @@ Bagian ini mendefinisikan kebutuhan fungsional dan non-fungsional untuk komponen
 
 ### 8.2. Stack LLM & Integrasi
 
-- **Provider LLM**: Platform harus mendukung setidaknya **Anthropic (Claude)**, **OpenAI (GPT)**, dan **Ollama (model lokal)** untuk fleksibilitas biaya dan privasi. Referensi implementasi multi-provider dapat dilihat pada .
-- **Orkestrasi**: Setiap agen AI (CEO, Finance, Ops) harus dapat memanggil *tools* spesifik (misalnya, , , ) yang memerlukan persetujuan manusia (*human-in-the-loop*) untuk aksi finansial.
+- **Provider LLM**: Platform harus mendukung setidaknya **Anthropic (Claude)**, **OpenAI (GPT)**, dan **Ollama (model lokal)** untuk fleksibilitas biaya dan privasi. Referensi implementasi multi-provider dapat dilihat pada `agent-company-ai`.
+- **Orkestrasi**: Setiap agen AI (CEO, Finance, Ops) harus dapat memanggil *tools* spesifik (misalnya, `check_balance`, `list_payments`, `request_payment`) yang memerlukan persetujuan manusia (*human-in-the-loop*) untuk aksi finansial.
 - **Vector Database (RAG)**: Gunakan **Qdrant** untuk menyimpan embedding dokumen internal (SOP, kontrak) dan mendukung fitur *chat with your data*.
 
 ### 8.3. Kebutuhan Data & Evaluasi
@@ -27,5 +27,5 @@ Bagian ini mendefinisikan kebutuhan fungsional dan non-fungsional untuk komponen
 ### 8.4. Etika & Tata Kelola AI
 
 - **Transparansi**: Setiap rekomendasi AI (terutama peramalan dan segmentasi) harus menyertakan penjelasan singkat (fitur utama yang mempengaruhi hasil) menggunakan SHAP atau feature importance.
-- **Human-in-the-Loop**: Aksi yang berdampak finansial (pembayaran, perubahan harga, restock besar) harus memerlukan persetujuan pengguna sebelum dieksekusi. Referensi pola ini dapat dilihat pada sistem *approval queue* di .
+- **Human-in-the-Loop**: Aksi yang berdampak finansial (pembayaran, perubahan harga, restock besar) harus memerlukan persetujuan pengguna sebelum dieksekusi. Referensi pola ini dapat dilihat pada sistem *approval queue* di `agent-company-ai`.
 - **Privasi Data**: Data pengguna tidak boleh digunakan untuk melatih model global tanpa izin eksplisit. Model lokal (Ollama) harus menjadi opsi untuk pengguna yang sensitif terhadap privasi.
