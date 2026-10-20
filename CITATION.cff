@@ -1,26 +1,16 @@
 cff-version: 1.2.0
-message: "Jika menggunakan protokol ini, silakan kutip seperti di bawah."
-title: "SLR Protocol: Effector vs Regulatory T Cells in Autoimmune Diseases"
+message: "Jika menggunakan produk ini, silakan kutip seperti di bawah."
+title: "AI Business Management Platform"
 authors:
-  - family-names: "Tanjung Sari"
-    given-names: "Dyah Wahyu"
-    affiliation: "Universitas Muhammadiyah Semarang"
-  - family-names: "Kamaruddin"
-    given-names: "Mudyawati"
-    affiliation: "Universitas Muhammadiyah Semarang"
+  - family-names: "Dyah"
+    given-names: "K."
 year: 2026
 version: "1.0.0"
-license: CC-BY-4.0
+license: MIT
 repository-code: "https://github.com/indri007/kak-dya"
 keywords:
-  - systematic review
-  - PRISMA
-  - T cells
-  - autoimmune
-  - regulatory T cells
-  - effector T cells
-
-identifiers:
-  - type: other
-    value: "PROSPERO: CRD42026XXXXXX"
-    description: "PROSPERO registration number"
+  - AI
+  - business management
+  - forecasting
+  - customer segmentation
+  - LLM
