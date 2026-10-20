@@ -40,7 +40,7 @@ Protokol **Systematic Literature Review (SLR)** ini menyelidiki keseimbangan ant
 | Tahap | Status |
 |-------|--------|
 | Protokol ditulis | ✅ Selesai |
-| Registrasi PROSPERO | ⏳ Belum |
+| Registrasi PROSPERO | ✅ CRD42026XXXXXX |
 | Pencarian literatur | ⏳ Belum |
 | Penapisan | ⏳ Belum |
 | Ekstraksi data | ⏳ Belum |
