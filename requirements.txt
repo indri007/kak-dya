@@ -1,0 +1,21 @@
+# Core
+streamlit>=1.30
+pandas>=2.2
+numpy>=1.26
+python-dotenv>=1.0
+requests>=2.31
+
+# Visualisasi
+plotly>=5.20
+matplotlib>=3.8
+
+# AI/ML
+scikit-learn>=1.4
+prophet>=1.1
+
+# Backend (opsional — aktifkan jika app.py pakai)
+# sqlalchemy>=2.0
+# psycopg2-binary>=2.9
+# qdrant-client>=1.9
+# redis>=5.0
+# minio>=7.2
