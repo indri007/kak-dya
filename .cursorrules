@@ -1,0 +1,14 @@
+# Cursor Rules - AI Business Management Platform
+
+## Tech Stack
+- Frontend: Next.js 14 (App Router), TypeScript, Tailwind CSS, Lucide Icons
+- Backend: Python 3.11+, FastAPI, SQLAlchemy / SQLModel, Pydantic v2
+- Database: PostgreSQL (with RLS), Qdrant (Vector DB), Redis (Cache & Queue)
+- AI/ML: Prophet, Scikit-learn, PyTorch, LangChain / LlamaIndex, LiteLLM
+
+## Core Development Guidelines
+1. Multi-Tenancy: ALWAYS include `tenant_id` on every query and API endpoint.
+2. Human-in-the-Loop: Any action involving money, price changes, or bulk updates must go through `approval_queue`.
+3. Strict Typing: Enforce full type annotations on all Python and TypeScript functions.
+4. Error Handling: Always return standardized API responses: `{ "success": bool, "data": ..., "error": ... }`.
+5. Testing: Maintain test coverage for all financial calculation routines and AI routing logic.
